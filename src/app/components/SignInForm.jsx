@@ -30,7 +30,7 @@ function SignInForm() {
         });
 
         if (data) {
-            toast.success('Log In success')
+            toast.success(`Logged in as ${data.user.email}`);
         }
 
         if (error) {

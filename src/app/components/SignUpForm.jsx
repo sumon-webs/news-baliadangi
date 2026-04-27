@@ -36,8 +36,7 @@ function SignUpForm() {
 
         // 
         if (data) {
-            toast.success('Sign Up success')
-            window.location.href = "/";
+            toast.success(`Logged in as ${data.user.email}`);
         }
 
         if (error) {
@@ -48,11 +47,19 @@ function SignUpForm() {
         const data = await authClient.signIn.social({
             provider: "google",
         });
+        if (data) {
+            toast.success(`Logged in as ${data.user.email}`);
+        }
+
     }
     const handleGithubLogin = async () => {
         const data = await authClient.signIn.social({
             provider: "github"
         })
+        if (data) {
+            toast.success(`Logged in as ${data.user.email}`);
+        }
+
     }
 
     return (
