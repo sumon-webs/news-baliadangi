@@ -37,7 +37,7 @@ const NewsCard = ({ news }) => {
                         {news.details}
                     </p>
                     <Link
-                        href={`/news/${news._id}`}
+                        href={`/news/details/${news._id}`}
                         className=" hover:underline font-semibold"
                     >
                         See more....
