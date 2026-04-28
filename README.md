@@ -23,5 +23,20 @@ It ensures that only logged-in users can access full news details.
 
 ---
 
-## 📸 Screenshots
-_Add your project screenshots here_
+---
+
+## 💡 What I Learned
+- Authentication flow (Login/Register system)  
+- Protected routes in Next.js  
+- Handling user sessions  
+- Improving user experience  
+
+---
+
+## 🌐 Live Demo
+👉 [https://your-live-link.com  ](https://news-baliadangi.vercel.app/news/category/01)
+
+---
+
+## 📬 Feedback
+Feel free to share your feedback and suggestions! 🙌
